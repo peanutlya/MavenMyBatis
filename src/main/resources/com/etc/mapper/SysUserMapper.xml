@@ -23,4 +23,5 @@
         create_time createTime
         from sys_user
     </select>
+
 </mapper>

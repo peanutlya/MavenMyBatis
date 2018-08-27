@@ -9,5 +9,5 @@ public interface SysUserDao {
 
     List<SysUser> queryAll();
 
-    List<SysUser> queryAll2();
+    //List<SysUser> queryAll2();
 }

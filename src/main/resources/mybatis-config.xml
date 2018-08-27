@@ -22,7 +22,8 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/etc/mapper/UserMapper.xml"/>
-        <mapper resource="com/etc/mapper/SysUserMapper.xml"/>
+        <!--<mapper resource="com/etc/dao/UserMapper.xml"/>-->
+        <!--<mapper resource="com/etc/dao/SysUserMapper.xml"/>-->
+        <package name="com.etc.dao" />
     </mappers>
 </configuration>

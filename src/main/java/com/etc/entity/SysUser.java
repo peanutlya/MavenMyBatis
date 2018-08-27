@@ -7,7 +7,7 @@ public class SysUser {
     private String userName;
     private String userPassword;
     private String userEmail;
-    private Date createTime;
+    private Date createTime1;
 
     public Long getId() {
         return id;
@@ -41,13 +41,13 @@ public class SysUser {
         this.userEmail = userEmail;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreateTime1() {
+        return createTime1;
     }
 
-    public void setCreateTime(Date createTime) {
+    public void setCreateTime1(Date createTime) {
         System.out.println(createTime);
-        this.createTime = createTime;
+        this.createTime1 = createTime;
     }
 
     @Override
@@ -57,7 +57,7 @@ public class SysUser {
                 ", userName='" + userName + '\'' +
                 ", userPassword='" + userPassword + '\'' +
                 ", userEmail='" + userEmail + '\'' +
-                ", createTime=" + createTime +
+                ", createTime1=" + createTime1 +
                 '}';
     }
 }
